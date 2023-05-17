@@ -1,0 +1,274 @@
+html,
+
+body {
+    background: white;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%; 
+}
+
+nav {
+  background-color: #ffffff;
+  transition: transform 0.4s ease-in-out;
+  transform: translateY(0);
+  z-index: 100;
+ 
+}
+
+nav.hidden {
+  transform: translateY(-150%);
+}
+
+.linkDiv {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  margin: 10px;
+}
+
+.homeCover {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 1em;
+  padding-bottom: 4em;
+}
+
+.h5 {
+  color:black !important; 
+}
+
+
+
+.kontaktText {
+  text-align: center;
+  backdrop-filter: brightness(50%);
+  border-radius: 30px;
+  color: white;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+h1 {
+  backdrop-filter: brightness(80%);
+  border-radius: 30px;
+}
+
+.hr {
+  backdrop-filter: brightness(80%);
+  
+}
+
+.bild1 {
+    margin: auto;
+}
+
+.headerDiv {
+  display: flex; 
+	justify-content:space-between;
+  background-color: white;
+  opacity: 0.9;
+  margin:auto;
+}
+
+.skizzeBild {
+  margin-top: 2px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 500px;
+}
+
+.skizzeBildContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.linkDiv {
+  display: flex;
+  margin-top: 10px;
+  position:sticky;
+  justify-content: center;
+}
+
+.logo2 {
+  background-color: white;
+  opacity: 0.9;
+  
+}
+
+.logo1 {
+  background-color: white;
+  opacity: 0.9;
+  
+}
+
+.urlBild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.HausCover {
+  display: block;
+  text-align: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+:hover.link {
+  color: grey;
+}
+
+/* row-cols-3 p-5 
+className="mt-1 col" */
+
+.bilderDiv {
+  background-color: transparent;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 50px;
+}
+
+.bautechnikLink {
+  margin-bottom: 15px;
+
+}
+
+.einzelBild {
+ float: left;
+ margin-bottom: 40px;
+ margin-right: 10px;
+ margin-top: -9px;
+}
+
+.bilderMap {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+ }
+
+.bildDecoration {
+  text-align: center; 
+  display:block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.hollow {
+  color: transparent;
+}
+
+.footer {
+  padding-top: 7px;
+  margin-bottom: 5px;
+  font-family: arial;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .homeCover {
+    display: flex;
+    flex-direction:column;  
+    align-items:center;
+    margin-top: -1em;
+  }
+
+  .bilderDiv {
+    background-color: transparent;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 50px;
+  }
+
+  .bautechnikLink {
+    margin-bottom: 15px;
+  }
+
+  .bilderMap {
+   margin-bottom: 60px;
+   display: flex;
+   flex-direction:column;
+   align-items:center;
+  }
+
+  .urlBild {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .einzelBild {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 14em;
+  }
+
+.HausCover {
+  display: block;
+  text-align: center;
+  width: 22rem;
+}
+
+.skizzeBild {
+  margin-top: 20px;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 400px;
+}
+
+.skizzeBildContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+
+nav {
+  background-color: #ffffff;
+  transition: transform 0.4s ease-in-out;
+  transform: translateY(0);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+nav.hidden {
+  transform: translateY(-150%);
+}
+
+.linkDiv {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.footer {
+  padding-top: 7px;
+  margin-bottom: 10px;
+}
+
+}
