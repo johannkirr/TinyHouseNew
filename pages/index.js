@@ -37,8 +37,9 @@ export default function Home() {
           Hallo Besucher! <br/>
           Es freut mich, dass du dich für die Faszination des Bauens und Wohnens 
           von Tiny Häusern interessierst. <br/> Mein Name ist Johann und ich baue seit 2021 ein Tiny Haus. 
-          Inspiriert hat mich ein guter Freund namens <Link href="https://lightaspect.net/natuerliche-waermedaemmung-lehm/" style={{textDecoration:"none"}}>Ivan Olelenko</Link>. Anfang 2020 habe ich Ihm geholfen sein 
-          Tiny Haus Projekt zu starten, nun baue ich mein eigenes. Dies ist mein Beitrag um eine alternative 
+          Inspiriert hat mich mein guter Freund Ivan der auch Dokus zu alternativen Bauweisen gemacht hat. 
+          Hier ein <Link href="https://lightaspect.net/natuerliche-waermedaemmung-lehm/" style={{textDecoration:"none"}}>Link</Link> zu seiner Seite. 
+          Anfang 2020 habe ich Ihm geholfen sein Tiny Haus Projekt zu starten, nun baue ich mein eigenes. Dies ist mein Beitrag um eine alternative 
           Wohnmöglichkeit oder besser, eine Rückzugsmöglichkeit vom stressigen Alltag vorzustellen.
         </p>
 
