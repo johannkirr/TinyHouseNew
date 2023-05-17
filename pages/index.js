@@ -73,7 +73,7 @@ export default function Home() {
           menschliches Bedürfnis, unser Zuhause selber zu gestalten. Wir wollen uns in unseren Häusern wohl und geborgen fühlen 
           und unsere persönlichen Vorlieben und Stile ausdrücken. Der Mensch sollte nicht nur 
           die Möglichkeit haben groß zu denken, sondern auch klein. <br/>  
-          Hör doch mal auf deine Innere Stimme  und frag dich selst was Freiheit für dich bedeutet?
+          Hör doch mal auf deine Innere Stimme  und frag dich selbst was Freiheit für dich bedeutet?
       </p>
 
       <div className="kontaktText">

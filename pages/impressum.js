@@ -15,7 +15,7 @@ export default function impressum() {
 
       <h3 style={{marginTop:"30px", color:"lightblue"}}> Fotografie: </h3>
 
-        Das Bild- und Videomaterial auf der Website stammt von Johann Kirr
+        Das Bild- und Videomaterial auf der Website stammt von Johann Kirr. Die Baupläne und Skizzen stammen von Ivan Olelenko.
     
       <h3 style={{marginTop:"30px", color:"lightblue"}}>Urheber- und Kennzeichenrecht: </h3>
 

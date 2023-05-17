@@ -16,7 +16,7 @@ export default function datenschutz() {
       Ich verarbeite deine Daten daher ausschließlich auf Grundlage der gesetzlichen 
       Bestimmungen. 
       <h3 style={{marginTop:"30px", color:"lightblue"}}>
-        Kotakt mit mir</h3> 
+        Kotakt</h3> 
         Ich erfasse und speicher keine personenbezogenen Daten von Nutzern auf meiner Webseite. Wenn du mir über den Kontaktbutton 
         eine E-Mail sendest, wird deine E-Mail-Adresse nur für die Bearbeitung
         deiner Anfrage verwendet. Ich gebe Deine E-Mail-Adresse nicht an Dritte weiter und 
