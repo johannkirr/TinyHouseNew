@@ -12,10 +12,12 @@ export default function skizze() {
         <div className="skizzeBild">
           <Image  src={HausSkizze} layout="cover" alt="Card example image"/>
         </div>
+        
 
         <div className="skizzeBild">
           <Image src={HausSkizze1}  layout="cover" alt="Card example image"/>
         </div>
+        <h4>Skizzen von Ivan Olelenko</h4>
 
       </div>
       

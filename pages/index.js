@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 import coverPicture1 from "../public/bilder/coverBilder/hausCover1.jpg";
 import coverPicture2 from "../public/bilder/coverBilder/hausCover2.jpg";
 import coverPicture3 from "../public/bilder/coverBilder/hausCover3.jpg";
@@ -6,6 +7,10 @@ import coverPicture4 from "../public/bilder/coverBilder/hausCover4.jpg";
 
 
 export default function Home() {
+
+  if(coverPicture1, coverPicture2, coverPicture3, coverPicture4) {
+  
+
   return (
    
     <div className="homeCover">
@@ -31,8 +36,10 @@ export default function Home() {
         <p style={{marginTop: "20px", textAlign: "center"}}>
           Hallo Besucher! <br/>
           Es freut mich, dass du dich für die Faszination des Bauens und Wohnens 
-          von Tiny Häusern interessierst. <br/> Dies ist mein Beitrag um eine alternative Wohnmöglichkeit oder besser, 
-          eine Rückzugsmöglichkeit vom stressigen Alltag vorzustellen.
+          von Tiny Häusern interessierst. <br/> Mein Name ist Johann und ich baue seit 2021 ein Tiny Haus. 
+          Inspiriert hat mich ein guter Freund namens <Link href="https://lightaspect.net/natuerliche-waermedaemmung-lehm/" style={{textDecoration:"none"}}>Ivan Olelenko</Link>. Anfang 2020 habe ich Ihm geholfen sein 
+          Tiny Haus Projekt zu starten, nun baue ich mein eigenes. Dies ist mein Beitrag um eine alternative 
+          Wohnmöglichkeit oder besser, eine Rückzugsmöglichkeit vom stressigen Alltag vorzustellen.
         </p>
 
         <div>
@@ -108,4 +115,13 @@ export default function Home() {
     </div>
    
   );
+  } else {
+    
+    return (
+    
+      console.log("loading")
+      
+    )
+   
+  }
 }
