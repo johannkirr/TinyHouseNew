@@ -2,6 +2,7 @@ import Image from "next/image";
 import coverPicture1 from "../public/bilder/coverBilder/hausCover1.jpg";
 import coverPicture2 from "../public/bilder/coverBilder/hausCover2.jpg";
 import coverPicture3 from "../public/bilder/coverBilder/hausCover3.jpg";
+import coverPicture4 from "../public/bilder/coverBilder/hausCover4.jpg";
 
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
 
         <h1
           className="shadow shadow-5 rounded-5"
-          style={{ fontFamily: "arial", color: "white", marginTop:"50px" }}>
+          style={{ fontFamily: "arial", color: "white", marginTop:"50px", width:"400px" }}>
           FASZINATION TINY HÄUSER
         </h1>
 
@@ -32,8 +33,11 @@ export default function Home() {
           Es freut mich, dass du dich für die Faszination des Bauens und Wohnens 
           von Tiny Häusern interessierst. <br/> Dies ist mein Beitrag um eine alternative Wohnmöglichkeit oder besser, 
           eine Rückzugsmöglichkeit vom stressigen Alltag vorzustellen.
-
         </p>
+
+        <div>
+          <Image src={coverPicture4} width={550} height={400} alt="coverPicture4"/>
+        </div>
 
           <p style={{marginTop: "20px"}}>
           Diese kleinen Häuser, die oft auf Rädern oder einer festen 
@@ -45,7 +49,7 @@ export default function Home() {
           </p>
 
           <div>
-            <Image src={coverPicture2} width={600} height={400} alt="coverPicture2"/>
+            <Image src={coverPicture2} width={600} height={800} alt="coverPicture2"/>
           </div>
 
           <p style={{marginTop: "20px"}}>  
