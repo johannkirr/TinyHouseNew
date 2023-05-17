@@ -1,7 +1,6 @@
 import Image from "next/image";
 import coverPicture1 from "../public/bilder/coverBilder/hausCover1.jpg";
 import coverPicture2 from "../public/bilder/coverBilder/hausCover2.jpg";
-import coverPicture4 from "../public/bilder/coverBilder/hausCover4.jpg";
 import coverPicture3 from "../public/bilder/coverBilder/hausCover3.jpg";
 
 
@@ -35,10 +34,6 @@ export default function Home() {
           eine Rückzugsmöglichkeit vom stressigen Alltag vorzustellen.
 
         </p>
-
-          <div>
-            <Image src={coverPicture4} width={600} height={400} alt="coverPicture4"/>
-          </div>
 
           <p style={{marginTop: "20px"}}>
           Diese kleinen Häuser, die oft auf Rädern oder einer festen 
