@@ -20,7 +20,7 @@ export default function Navigation() {
      
         <div className="linkDiv">
           <div className="link">
-            <Link href="/" className="paper-btn btn-primary text-decoration-none text-black">
+            <Link href="/" className="paper-btn btn-primary text-decoration-none text-black w-100">
               Haus
             </Link>
           </div>
