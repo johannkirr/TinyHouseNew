@@ -159,7 +159,7 @@ h1 {
   font-family: arial;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   html,
   body {
   background-size: contain;
@@ -177,16 +177,27 @@ h1 {
     margin: auto;
   }
   
-
   .homeCover {
+  background-size: contain;
+  background-position: center;
   margin-top: 0;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   }
+
+
+h1 {
+  backdrop-filter: brightness(80%);
+  border-radius: 30px;
+}
   
   .bilderDiv {
-  margin-top: 20px;
+  margin-top: 40px;
   }
   
+  .bautechnikLink {
+    margin-bottom: 25px;
+  }
+
   .skizzeBild {
   width: 100%;
   max-width: 400px;
@@ -195,8 +206,14 @@ h1 {
   
   .skizzeBildContainer {
   flex-direction: column;
-  
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  }
+
+  .bilderMap {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .urlBild {
@@ -206,6 +223,7 @@ h1 {
   .einzelBild {
   float: none;
   margin: 0;
+  margin-bottom: 10px;
   }
   
   .bildDecoration {
