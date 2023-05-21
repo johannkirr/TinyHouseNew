@@ -1,3 +1,4 @@
+import {useState, useEffect } from "react";
 import Image from "next/image";
 import Link from 'next/link';
 import coverPicture1 from "../public/bilder/coverBilder/hausCover1.jpg";
@@ -8,20 +9,40 @@ import coverPicture4 from "../public/bilder/coverBilder/hausCover4.jpg";
 
 export default function Home() {
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+      const loadImages = async () => {
+        const images = [coverPicture1, coverPicture2, coverPicture3, coverPicture4];
+        try {
+          await Promise.all(images.map((image) => Image.prefetch(image.src)));
+          setLoading(false);
+        } catch (error) {
+          console.error("Error loading images:", error);
+          setLoading(false);
+        }
+      };
+
+      loadImages();
+  }, []);
+
   if(coverPicture1, coverPicture2, coverPicture3, coverPicture4) {
   
-
   return (
    
     <div className="homeCover">
+      {loading ? (
+        <h2>Lade..</h2>
+      ) : (
 
+      <>
       <div>
         <Image src={coverPicture1} width={600} height={400} alt="coverPicture1"/>
       </div>
 
       <div className="HausCover" >
    
-
+      
         <h1
           className="shadow shadow-5 rounded-5"
           style={{ fontFamily: "arial", color: "white", marginTop:"50px", width:"360px" }}>
@@ -112,17 +133,14 @@ export default function Home() {
         </div>
       </div>
 
-   
-    </div>
-   
-  );
-  } else {
-    
-    return (
-    
-      console.log("loading")
+      </>
+
+      )}
       
-    )
-   
+      </div>
+      
+  );
+ 
+
   }
 }
