@@ -11,7 +11,7 @@ export default function Gallery() {
 
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 700);
+    }, 2000);
 
     return () => clearTimeout(timer);
 
