@@ -1,6 +1,7 @@
+import { useState, useEffect } from "react";
+import Logo from "../komponenten/Logo";
 import Image from "next/image";
 import Link from 'next/link';
-import { useState, useEffect } from "react";
 import coverPicture1 from "../public/bilder/coverBilder/hausCover1.jpg";
 import coverPicture2 from "../public/bilder/coverBilder/hausCover2.jpg";
 import coverPicture3 from "../public/bilder/coverBilder/hausCover3.jpg";
@@ -14,7 +15,7 @@ export default function Home() {
 
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 2500);
 
     return () => clearTimeout(timer);
 
@@ -24,7 +25,7 @@ export default function Home() {
    
     <div className="homeCover">
       {isLoading ? (
-        <h2>Lade...</h2>
+        <Logo/>
       ) : (
 
       <>
