@@ -17,9 +17,8 @@ export default function skizze() {
         <div className="skizzeBild">
           <Image src={HausSkizze1}  layout="cover" alt="Card example image"/>
         </div>
-        <p style={{display:"flex", justifyContent:"right"}}>Skizzen von Ivan Olelenko</p>
-
       </div>
+      <p className="card-text border border-1 border-dark shadow" style={{marginBottom:"90px", marginLeft:"2rem", width:"200px"}}>Skizzen von Ivan Olelenko</p>
       
     </div>
   )

@@ -39,7 +39,7 @@ export default function Home() {
 
         <h1
           className="shadow shadow-5 rounded-5"
-          style={{ fontFamily: "arial", color: "white", marginTop:"50px", width:"360px"}}>
+          style={{ fontFamily: "arial", color: "white", marginTop:"50px"}}>
           FASZINATION TINY HÄUSER
         </h1>
 
@@ -58,7 +58,7 @@ export default function Home() {
           Wohnmöglichkeit oder besser, eine Rückzugsmöglichkeit vom stressigen Alltag vorzustellen.
         </p>
 
-        <div>
+        <div className="image">
           <Image src={coverPicture4} width={550} height={400} alt="coverPicture4"/>
         </div>
 
@@ -71,7 +71,7 @@ export default function Home() {
           funktional und stilvoll gestaltet.  
           </p>
 
-          <div>
+          <div className="image">
             <Image src={coverPicture2} width={600} height={800} alt="coverPicture2"/>
           </div>
 
