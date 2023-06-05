@@ -39,7 +39,7 @@ export default function Home() {
 
         <h1
           className="shadow shadow-5 rounded-5"
-          style={{ fontFamily: "arial", color: "white", marginTop:"50px", width:"360px" }}>
+          style={{ fontFamily: "arial", color: "white", marginTop:"50px", width:"360px"}}>
           FASZINATION TINY HÄUSER
         </h1>
 

@@ -64,7 +64,7 @@ const jsonUnterboden = {
             name: "Bohrung Einschraubmuttern",
             url: 'bild9',
             bild: '/bilder/cardBilder/bild9.jpg',
-            title: "Steropor schneiden",
+            title: "Styropor schneiden",
             beschreibung: 'Dies ist die Isolierung für den Unterboden. Steropor schneidet man am besten mit dem "Stanley" Messer. Es muss wirklich bündig hineinpassen, damit sich keine Kältebrücken ergeben'
         },
         {

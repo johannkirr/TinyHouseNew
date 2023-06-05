@@ -46,6 +46,7 @@ nav.hidden {
 h1 {
   backdrop-filter: brightness(80%);
   border-radius: 30px;
+  
 }
 
 .hr {
