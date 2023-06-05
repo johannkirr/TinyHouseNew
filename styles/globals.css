@@ -103,6 +103,10 @@ h1 {
   opacity: 0.9;
 }
 
+.border.border-4.border-white.shadow {
+  margin-top: 25px;
+}
+
 .urlBild {
   display: flex;
   flex-direction: column;
@@ -181,6 +185,10 @@ h1 {
   .paper-btn.btn-primary.text-decoration-none.text-black {
     font-size: 15px;
     padding: 8px 8px;
+  }
+
+  .border.border-4.border-white.shadow {
+    margin-top: -10px;
   }
 
   .link {
