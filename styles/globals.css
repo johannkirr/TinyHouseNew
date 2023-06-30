@@ -168,6 +168,11 @@ h1 {
   font-family: arial;
 }
 
+.fixed-bottom.bg-black {
+  height: 10%;
+}
+
+
 @media only screen and (max-width: 800px) {
   html,
   body {
@@ -185,6 +190,7 @@ h1 {
   .paper-btn.btn-primary.text-decoration-none.text-black {
     font-size: 15px;
     padding: 8px 8px;
+    
   }
 
   .border.border-4.border-white.shadow {
@@ -271,6 +277,9 @@ h1 {
   margin-bottom: 10px;
   }
   
+  .fixed-bottom.bg-black {
+    height: 6%;
+  }
  
 
 
